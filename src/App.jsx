@@ -4,9 +4,9 @@ import { shuffle } from "./utils/shuffle";
 import "./App.css";
 
 const startingImages = [
-  { id: 1, src: "images/photo1.jpg", title: "Yesterday" },
-  { id: 2, src: "images/photo2.jpg", title: "Today" },
-  { id: 3, src: "images/photo3.jpg", title: "Tomorrow" },
+  { id: 1, src: `${import.meta.env.BASE_URL}images/photo1.jpg`, title: "Yesterday" },
+  { id: 2, src: `${import.meta.env.BASE_URL}images/photo2.jpg`, title: "Today" },
+  { id: 3, src: `${import.meta.env.BASE_URL}images/photo3.jpg`, title: "Tomorrow" },
 ];
 
 function App() {
